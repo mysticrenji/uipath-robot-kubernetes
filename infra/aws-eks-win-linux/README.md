@@ -9,8 +9,8 @@
 ```
 terraform init
 terraform fmt -recursive
-terraform plan 
-terraforma apply
+terraform plan -var-file=prod.tfvars
+terraforma apply -var-file=prod.tfvars
 ```
 
 ## Update kubeconfig for eks cluster
