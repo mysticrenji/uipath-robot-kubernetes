@@ -1,4 +1,0 @@
-- rolearn: arn:aws:iam::111122223333:role/Admin
-  username: admin
-  groups:
-  - system:masters
